@@ -1,62 +1,54 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+	<view class="box" hover-class="boxHover">
+		<view class="inner" hover-class="innerHover" hover-stop-propagation>
+			内部元素
 		</view>
-		<view>
-			hihihi
-		</view>
-		<view>
-			XXX
-		</view>
-		<view>
-			------
-		</view>
-	
 	</view>
+
+	<view>--------</view>
+
+	<scroll-view scroll-x="true" class="scrollView">
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+		<view class="box"> scroll的子元素</view>
+	</scroll-view>
+
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
+<script setup>
 
-		},
-		methods: {
-
-		}
-	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+<style lang="scss">
+	.scrollView {
+		width: 80%;
+		height: 220px;
+		border: 1px solid red;
+		white-space: nowrap;
 
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
+		.box {
+			width: 100px;
+			height: 100px;
+			background: green;
+			display: inline-block;
+			margin: 5px;
 
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+		}
 	}
 </style>
