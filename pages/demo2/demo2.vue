@@ -1,20 +1,12 @@
 <template>
-	<view>
-		这是demo2
+	<view class="">
+		<button size="mini" type="warn" plain="">按钮</button>
 	</view>
+	<input type="text" maxlength="10" confirm-type="search" />
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
 
-			}
-		},
-		methods: {
-
-		}
-	}
 </script>
 
 <style>

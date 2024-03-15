@@ -19,7 +19,11 @@
 			</swiper-item>
 		</swiper>
 	</view>
+	<view>----------</view>
 
+	<view class="">
+		<navigator url="/pages/demo2/demo2" open-type="reLaunch">跳转到demo2</navigator>
+	</view>
 
 </template>
 

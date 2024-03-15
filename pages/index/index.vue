@@ -7,6 +7,10 @@
 
 	<view>--------</view>
 
+	<view class="">
+		<navigator url="/pages/demo1/demo1" open-type="reLaunch">跳转到demo1</navigator>
+	</view>
+
 	<scroll-view scroll-x="true" class="scrollView">
 		<view class="box"> scroll的子元素</view>
 		<view class="box"> scroll的子元素</view>
