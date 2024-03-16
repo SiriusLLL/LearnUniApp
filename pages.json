@@ -33,6 +33,14 @@
 				"navigationBarTitleText": "demo4",
 				"enablePullDownRefresh": false
 			}
+		},
+		{
+			"path" : "pages/demo5/demo5",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo5",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {
