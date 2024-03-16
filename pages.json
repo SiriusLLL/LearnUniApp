@@ -7,19 +7,24 @@
 			}
 		},
 		{
-			"path" : "pages/demo1/demo1",
-			"style" : 
-			{
-				"navigationBarTitleText" : "demo",
-				"enablePullDownRefresh" : false
+			"path": "pages/demo1/demo1",
+			"style": {
+				"navigationBarTitleText": "demo1",
+				"enablePullDownRefresh": false
 			}
 		},
 		{
-			"path" : "pages/demo2/demo2",
-			"style" : 
-			{
-				"navigationBarTitleText" : "",
-				"enablePullDownRefresh" : false
+			"path": "pages/demo2/demo2",
+			"style": {
+				"navigationBarTitleText": "demo2",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demo3/demo3",
+			"style": {
+				"navigationBarTitleText": "demo3",
+				"enablePullDownRefresh": false
 			}
 		}
 	],
