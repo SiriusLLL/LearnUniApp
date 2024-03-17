@@ -33,6 +33,7 @@
 			position: relative;
 			z-index: 2;
 			background: #fff;
+			padding: 0 10px;
 		}
 
 		.pic {
